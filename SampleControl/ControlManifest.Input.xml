@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="SampleNamespace" constructor="IframeControl" version="1.0.0" 
+           display-name-key="Iframe Control" description-key="Exibe um conteúdo de URL em um iframe">
+      <property name="iframeUrl" display-name-key="Iframe URL" of-type="SingleLine.Text" required="true" usage="bound"/>
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>
